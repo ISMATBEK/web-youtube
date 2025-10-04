@@ -1,4 +1,5 @@
 Flask==2.2.5
 Werkzeug==2.2.3
-Flask-CORS
+Flask-COR
+web: gunicorn app:app
 yt-dlp
